@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #e6e1d2;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: white;
+    height: 8%;
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 1px solid #999;
+}
+h2{
+    padding: 10px;
+    color: rgb(46, 45, 45);
+}
+header h1{
+    padding-bottom: 5px;
+}
+
+aside{
+    background-color: white;
+    float: left;
+    width: 25%;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+nav{
+    background-color: white;
+    height: 100%;
+    padding: 30px 20px ;
+}
+
+nav li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav li a:hover{
+    color: rgb(144, 47, 55);
+}
+
+main{
+    float: left;
+    height: 1030px;
+    width: 75%;
+    font-size: 16px;
+    overflow-y: auto;
+    vertical-align: top;
+    border-left: 1px solid #828282;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    
+}
+
+main h3{
+    padding: 15px;
+    
+}
+
+main h4, main p{
+    margin-left: 30px;
+}
+.folha{
+    width: 1080px;        
+    min-height: 1200px; 
+    background-color: white;
+    margin: 40px auto;  
+    padding: 40px;       
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2); 
+}
+
+.principal{
+    min-height: 1350px;
+    background-color: white;
+    margin: 15px 25px;
+} 
+
+section img{
+    float: right;
+    width: 250px;
+    margin: 10px 0 20px 20px;
+    border: 5px solid #e5e5e5;
+}
+
+section h4{
+   padding-right: 0;
+}
+section p{
+    margin-bottom: 15px ;
+}
+
+.prato{
+    color: black;
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.retorno a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+.fo-img img{
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.fo-img ul{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    
+}
+.fo-img ul li{
+    margin: 15px;
+}
+
+footer{
+    background-color: cornsilk;
+    padding-top: 10px;
+    height: 10%;
+    font-size: 16px;
+    border-top: 1px solid #999;
+    clear: both;
+  }
