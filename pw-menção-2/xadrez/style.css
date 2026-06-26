@@ -1,0 +1,36 @@
+/* Centraliza o tabuleiro na tela apenas para exibição */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #312e2b; /* Fundo escuro estilo Chess.com */
+    margin: 0;
+}
+
+/* O Tabuleiro */
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 colunas iguais */
+    grid-template-rows: repeat(8, 1fr);    /* 8 linhas iguais */
+    width: 80vmin;  /* Garante que o tabuleiro seja responsivo e quadrado */
+    height: 80vmin;
+    border: 4px solid #3d3a37;
+}
+
+/* Cor padrão de todas as casas (vamos definir como as claras) */
+.tabuleiro div {
+    background-color: #eeeed2;
+}
+
+
+.tabuleiro div:nth-child(-n+8):nth-child(even),
+.tabuleiro div:nth-child(n+9):nth-child(-n+16):nth-child(odd),
+.tabuleiro div:nth-child(n+17):nth-child(-n+24):nth-child(even),
+.tabuleiro div:nth-child(n+25):nth-child(-n+32):nth-child(odd),
+.tabuleiro div:nth-child(n+33):nth-child(-n+40):nth-child(even),
+.tabuleiro div:nth-child(n+41):nth-child(-n+48):nth-child(odd),
+.tabuleiro div:nth-child(n+49):nth-child(-n+56):nth-child(even),
+.tabuleiro div:nth-child(n+57):nth-child(odd) {
+    background-color: #10130d; /* Verde clássico de xadrez */
+}
